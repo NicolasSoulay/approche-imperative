@@ -5,7 +5,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class InteractifPlusMoins {
     public static void main(String[] args) {
-        int monRandom = ThreadLocalRandom.current().nextInt(1, 100 + 1);
+        int monRandom = ThreadLocalRandom.current().nextInt(1, 101);
         int a=1;
         System.out.println("Essayez de trouver le nombre compris entre 1 et 100:");
         Scanner scanner = new Scanner(System.in) ;
